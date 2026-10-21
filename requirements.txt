@@ -1,0 +1,4 @@
+dotenv==0.9.9
+requests==2.34.2
+jsonpath-ng==1.8.0
+pydantic==2.13.4

@@ -1,0 +1,33 @@
+# Version control
+.git/
+.gitignore
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets and user config (bind-mounted at runtime)
+.env
+instances.json
+
+# Runtime data (bind-mounted at runtime)
+data/
+
+# Node
+ui/node_modules/
+
+# Plan files
+*-plan.md
+
+# macOS
+.DS_Store
+
+# Other generated/local artifacts
+export/
+*.sqlite
+*.zip
+*.xlsx
+*.pid
